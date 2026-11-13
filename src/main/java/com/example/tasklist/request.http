@@ -1,0 +1,9 @@
+POST http://localhost:6632/api/v1/auth/register
+Content-Type: application/json
+
+{
+  "name": "Sasha",
+  "userName": "as@de.ru",
+  "password": "12456",
+  "passwordConfirmation": "12456"
+}
